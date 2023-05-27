@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family:'Poppins', Times, serif;
+        box-sizing: border-box}
+
+.container{
+padding:10px;
+background-image:url("https://cdn.pixabay.com/photo/2021/07/09/13/51/notes-6399119_640.jpg"); 
+width:100%;
+min-height: 100vh;
+background-repeat:no-repeat ;
+background-size:1200px;
+
+}
+.dolist{
+    width:30%;
+    max-height:75vh;
+    background-color:white;
+    margin:90px auto 15px;
+    padding:40px 30px 70px;
+    border-radius:10px;
+}
+.dolist h1{
+   align-items:center;
+    display:flex;
+    text-decoration: dotted;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+.r1{
+    display:flex;
+    align-items: center;
+    padding-left:20px;
+    background: lightgray;
+    justify-content: space-between;
+    margin-bottom: 25px;
+    margin:10px;
+    border-radius: 10px;
+    border-color: black;
+}
+input{
+    flex:1;
+    padding: 10px;
+    border:none;
+    font-size: 16px;
+    outline: none;
+    background:transparent;
+}
+button
+{
+padding:16px 16px;
+background:orange;
+color:white;
+font-size: 16px;
+border:none;
+outline: none;
+cursor:pointer;
+border-radius: 10px;
+}
+ul li{
+    font-size: 20px;
+    list-style: none;
+    padding:20px 12px 15px 25px;
+    cursor: pointer;
+    position: relative;
+    user-select:none;
+}
+ul li::before{
+    content:'';
+    position:absolute;
+    height:20px;
+    width:20px;
+    border-radius:50%;
+    background-image:url(images/unchecked.png);
+    background-size: cover;
+    background-position: center;
+    top: 22px;
+    left:1px;
+}
+ul li.checked{
+    text-decoration:line-through;
+    color:#555;
+}
+ul li.checked::before{
+    background-image:url(images/checked.png);
+}
+ul li span{
+    position: absolute;
+    height:20px;
+    width: 30px;
+    right:0;
+    top:15px;
+    font-size: 22px;
+    color:rgb(72, 72, 72);
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+
+}
+ul li span:hover
+{
+    background: rgb(176, 173, 173);
+    border-radius: 50%;
+}
