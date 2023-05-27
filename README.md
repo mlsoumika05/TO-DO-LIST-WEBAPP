@@ -4,6 +4,5 @@ A simple demonstration video is been attached along with screenshots:
 
 https://github.com/mlsoumika05/TO-DO-LIST-WEBAPP/assets/134679466/5314f5f2-e0c2-4f82-b46c-590414130bb0
 
-![todolistss1](https://github.com/mlsoumika05/TO-DO-LIST-WEBAPP/assets/134679466/5d4dcbea-8584-4a6b-b45f-6781a7819d82)
-
-![todolistss2](https://github.com/mlsoumika05/TO-DO-LIST-WEBAPP/assets/134679466/fa07843a-37f4-46dd-945f-da208ae4e72d)
+![todolistss1](https://github.com/mlsoumika05/TO-DO-LIST-WEBAPP/assets/134679466/988936b6-1150-4d25-b3be-e052ec085063)
+![todolistss2](https://github.com/mlsoumika05/TO-DO-LIST-WEBAPP/assets/134679466/3b845ccb-4e3d-441a-bbc3-5eb183767fb6)
